@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responive Personal Portfolio Website Design</title>
+
+    <!----box icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--custom css--->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!--home section design-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Ishika Dutta</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>Hi,I'm Ishika,Web Developer.Passionate about Frontend as well as Backend Development. </p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/olivia.sen.3994?mibextid=ZbWKwL"><i
+                        class='bx bxl-facebook'></i></a>
+                <a href="https://instagram.com/lovely_goldenroses?igshid=MzNlNGNkZWQ4Mg=="><i
+                        class='bx bxl-instagram-alt'></i></a>
+                <a href="https://www.linkedin.com/in/ishika-dutta-7bbb4426b"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/Ishika108"><i class='bx bxl-github'></i>
+            </div>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="images/1.jpg" alt="">
+        </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/2.jpeg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer!</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum perferendis adipisci quam illo odit voluptas molestiae id eum modi quasi mollitia enim fugiat quis eveniet rerum, magni quod culpa inventore!</p>
+            <a herf="#" class="btn">Read More</a>
+        </div>
+    </section>
+    <!--services section design-->
+    <section class="services" id="services">
+        <h2 class="heading">Our <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3> Web Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum minima eligendi nesciunt quo, temporibus alias quia molestiae libero incidunt! Doloremque.</p>
+                <a herf="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                    <i class='bx bxs-paint' ></i>
+                    <h3> Grapic Design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum minima eligendi nesciunt quo, temporibus alias quia molestiae libero incidunt! Doloremque.</p>
+                    <a herf="#" class="btn">Read More</a>
+             </div>
+
+                
+             <div class="services-box">
+                    <i class='bx bx-bar-chart-alt' ></i>
+                    <h3>Degital Markating</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum minima eligendi nesciunt quo, temporibus alias quia molestiae libero incidunt! Doloremque.</p>
+                    <a herf="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!--portfolio section design-->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/3.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Online Shopping</h4>
+                    <p>with the help of java html css</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/4.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>web design</h4>
+                    <p>with the help of java html css</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--contact section design-->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#" method="post" id="contact-form">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name" id="contact-name" name="user_name">
+                <input type="email" placeholder="Email Address" id="contact-email" name="user_email">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number" id="contact-mobile">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="user_query" id="contact-query" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <p class="contact_message" id="contact-message"></p>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+   <!---footer design-->
+   <footer class="footer">
+    <div class="footer-text">
+        <p>Copyright &copy; 2023 by Ishika | All Rights Reserved.</p>
+    </div>
+
+    <div class="footer-iconTop">
+        <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+</footer>
+
+<!--scroll reveal-->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+ <!---typed js-->
+ <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+<!--typed js-->
+
+    <script src="script.js"></script>
+
+</body>
+</html>
